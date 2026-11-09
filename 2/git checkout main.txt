@@ -1,0 +1,7 @@
+git checkout main
+git pull origin main
+git checkout -b feature-homepage
+แก้ไขไฟล์ index.html ในเครื่อง
+git add index.html
+git commit -m "update my index.html on branch"
+git push origin feature-homepage
